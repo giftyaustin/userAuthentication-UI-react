@@ -1,0 +1,59 @@
+.home-decorate{
+    background: linear-gradient(0.15turn, #00031d, #060606 ,#010312 );
+    height: 100vh;
+}
+
+.demo{
+    background-color: transparent;
+    width: 200px;
+    border: 1px solid rgb(202, 202, 202);
+    height: 70px;
+   margin: 20px;
+   border-radius: 6px;
+   font-size: x-large;
+   transform: scale(0.9,0.9);
+  
+   
+}
+.separator{
+    border-left: 1px solid rgb(230, 230, 230);
+    margin-left: 30px;
+    margin-right: 30px;
+   
+    animation: separator ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes separator {
+    0%{
+        transform: scale(1,0);
+    }
+    90%{
+        transform: scale(1,0.6);
+    }
+    100%{
+        transform: scale(1,0);
+    }
+   
+}
+.btn-h{
+    position: relative;
+    top: 40vh;
+    transition: 0.5s;
+}
+.info{
+    font-size: large;
+    position: relative;
+    top: 70vh;
+    
+}
+
+.demo:hover{
+    background-color: rgba(206, 206, 206, 0.11);
+    transition: 0.5s;
+    color: white;
+    font-weight: lighter;
+    transform: scale(1,1);
+    
+}
+

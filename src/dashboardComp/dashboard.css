@@ -1,0 +1,9 @@
+.dashboard{
+    background: linear-gradient(0.15turn, #00031d, #060606 ,#010312 );
+    height: 100vh;
+}
+
+.session-exp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+   font-size: xx-large;
+}
